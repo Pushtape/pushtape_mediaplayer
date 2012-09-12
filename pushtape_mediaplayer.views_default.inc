@@ -225,23 +225,6 @@ function pushtape_mediaplayer_views_default_views() {
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['pane_category']['name'] = 'Pushtape';
   $handler->display->display_options['pane_category']['weight'] = '0';
-  $translatables['pushtape_player_track_views'] = array(
-    t('Master'),
-    t('Tracks'),
-    t('more'),
-    t('Apply'),
-    t('Reset'),
-    t('Sort by'),
-    t('Asc'),
-    t('Desc'),
-    t('file from field_audio'),
-    t('Audio'),
-    t('Path'),
-    t('All Tracks Player'),
-    t('lists all tracks'),
-    t('Pushtape'),
-    t('All Tracks Jplayer'),
-  );
   $export['pushtape_player_track_views'] = $view;
 
   return $export;
