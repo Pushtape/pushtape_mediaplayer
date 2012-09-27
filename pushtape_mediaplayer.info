@@ -1,9 +1,9 @@
 name = Pushtape Mediaplayer
 description = better implementation
 core = 7.x
-package = Pushtape
+package = Panopoly Apps
 php = 5.2.4
-version = 7.x-1.0-alpha3
+version = 7.x-1.x-dev
 project = pushtape_mediaplayer
 dependencies[] = ctools
 dependencies[] = features
@@ -39,4 +39,6 @@ features[variable][] = jplayer_directory
 features[variable][] = sm2_path
 features[views_view][] = pushtape_player_track_views
 files[] = test/pushtape_mediaplayer.test
-project status url = http://apps.rosenstrauch.com/fserver
+
+project status url = http://apps.pushtape.openlearninglabs.org/content/pushtape-mediaplayer
+apps[server] = http://apps.pushtape.openlearninglabs.org/app/query/pushtape

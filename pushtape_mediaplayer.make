@@ -5,7 +5,6 @@ projects[file_entity][subdir] = contrib
 projects[media][subdir] = contrib
 projects[media][version] = 2.x-dev
 
-
 projects[media_soundcloud][version] = 1.x-dev
 projects[media_soundcloud][subdir] = contrib
 projects[html5_media][subdir] = contrib
