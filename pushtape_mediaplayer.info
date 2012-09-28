@@ -34,6 +34,7 @@ features[file_display][] = audio__media_large__file_field_file_default
 features[file_display][] = audio__media_large__file_field_file_rendered
 features[file_display][] = audio__media_large__file_field_soundmanager2_inline_player
 features[file_display][] = audio__media_small__media_soundcloud_audio
+features[file_display][] = audio__media_small__file_field_soundmanager2_inline_player
 features[page_manager_pages][] = pushtape_tracks_player
 features[variable][] = jplayer_directory
 features[variable][] = sm2_path
