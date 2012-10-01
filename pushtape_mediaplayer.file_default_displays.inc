@@ -90,16 +90,40 @@ function pushtape_mediaplayer_file_default_displays() {
   );
   $export['audio__media_large__media_soundcloud_audio'] = $file_display;
 
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'audio__media_small__file_field_file_default';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['audio__media_small__file_field_file_default'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
-  $file_display->name = 'audio__media_small__file_field_soundmanager2_inline_player';
-  $file_display->weight = -49;
+  $file_display->name = 'audio__media_small__file_field_file_rendered';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+  );
+  $export['audio__media_small__file_field_file_rendered'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'audio__media_small__file_field_soundmanager2_ui360';
+  $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
+    'pause' => 'pause',
+    'inline' => 1,
+    'visualization' => 0,
+    'waveform' => 0,
+    'eq' => 0,
+    'amplifier' => 0,
+    'diameter' => '56',
     'text' => 'filename',
   );
-  $export['audio__media_small__file_field_soundmanager2_inline_player'] = $file_display;
+  $export['audio__media_small__file_field_soundmanager2_ui360'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
