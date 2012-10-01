@@ -4,6 +4,7 @@ core = 7.x
 projects[file_entity][subdir] = contrib
 projects[media][subdir] = contrib
 projects[media][version] = 2.x-dev
+projects[media][patch][1051090] = http://drupal.org/files/media-file-view-mode-1051090-56.patch
 
 projects[media_soundcloud][version] = 1.x-dev
 projects[media_soundcloud][subdir] = contrib
