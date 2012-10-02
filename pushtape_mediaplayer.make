@@ -8,7 +8,7 @@ projects[features][type] = module
 projects[media] = 1.2
 projects[media][subdir] = contrib
 
-projects[media_soundcloud][version] = 1.x-dev
+projects[media_soundcloud][version] = 1.0-alpha2 
 projects[media_soundcloud][subdir] = contrib
 projects[html5_media][subdir] = contrib
 projects[media_colorbox][subdir] = contrib
