@@ -73,9 +73,12 @@ function pushtape_mediaplayer_field_default_fields() {
           'module' => 'soundmanager2',
           'settings' => array(
             'amplifier' => 1,
+            'audio_type' => 'default',
             'diameter' => '25',
             'eq' => 1,
             'inline' => 0,
+            'pause' => 'pause',
+            'stream' => FALSE,
             'text' => 'filename',
             'visualization' => 1,
             'waveform' => 1,

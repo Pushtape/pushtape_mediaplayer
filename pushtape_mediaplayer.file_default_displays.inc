@@ -80,19 +80,6 @@ function pushtape_mediaplayer_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
-  $file_display->name = 'audio__media_large__media_soundcloud_audio';
-  $file_display->weight = -50;
-  $file_display->status = TRUE;
-  $file_display->settings = array(
-    'width' => '100%',
-    'autoplay' => 0,
-    'extra_params' => 'color: 2582fa, show_artwork: false, iframe: true, show_comments: false',
-  );
-  $export['audio__media_large__media_soundcloud_audio'] = $file_display;
-
-
-  $file_display = new stdClass();
-  $file_display->api_version = 1;
   $file_display->name = 'audio__media_small__file_field_soundmanager2_inline_player';
   $file_display->weight = -49;
   $file_display->status = TRUE;
