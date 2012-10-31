@@ -6,6 +6,7 @@ php = 5.2.4
 version = 7.x-1.x-dev
 project = pushtape_mediaplayer
 dependencies[] = ctools
+dependencies[] = entity_view_mode
 dependencies[] = features
 dependencies[] = file_entity
 dependencies[] = jplayer
