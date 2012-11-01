@@ -76,6 +76,8 @@ function pushtape_mediaplayer_field_default_fields() {
             'diameter' => '25',
             'eq' => 1,
             'inline' => 0,
+            'pause' => 'pause',
+            'stream' => FALSE,
             'text' => 'filename',
             'visualization' => 1,
             'waveform' => 1,
