@@ -33,10 +33,6 @@ features[file_display][] = audio__album_player__media_soundcloud_audio
 features[file_display][] = audio__default__file_field_file_default
 features[file_display][] = audio__default__file_field_file_rendered
 features[file_display][] = audio__default__media_soundcloud_audio
-features[file_display][] = audio__media_large__file_field_file_default
-features[file_display][] = audio__media_large__file_field_file_rendered
-features[file_display][] = audio__media_large__file_field_soundmanager2_inline_player
-features[file_display][] = audio__media_small__media_soundcloud_audio
 features[file_display][] = audio__preview__file_field_media_large_icon
 features[file_display][] = audio__track_player__file_field_soundmanager2_inline_player
 features[file_display][] = audio__track_player__media_soundcloud_audio
@@ -45,6 +41,5 @@ features[variable][] = jplayer_directory
 features[variable][] = sm2_path
 features[views_view][] = pushtape_player_track_views
 files[] = test/pushtape_mediaplayer.test
-
 project status url = http://apps.pushtape.openlearninglabs.org/content/pushtape-mediaplayer
 apps[server] = http://apps.pushtape.openlearninglabs.org/app/query/pushtape
