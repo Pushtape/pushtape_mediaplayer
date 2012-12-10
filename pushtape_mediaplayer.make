@@ -1,6 +1,9 @@
 api = 2
 core = 7.x
 
+projects[colorbox][version] = 2.0
+projects[colorbox][subdir] = contrib
+
 projects[entity_view_mode][version] = 1.0-beta3
 projects[entity_view_mode][subdir] = contrib
 
@@ -45,6 +48,11 @@ projects[views_slideshow][subdir] = contrib
 
 projects[views_slideshow_galleria][version] = 3.1
 projects[views_slideshow_galleria][subdir] = contrib
+
+libraries[colorbox][download][type] = get
+libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox.zip"
+libraries[colorbox][directory_name] = colorbox
+libraries[colorbox][type] = library
 
 libraries[flexslider][download][type] = get
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
