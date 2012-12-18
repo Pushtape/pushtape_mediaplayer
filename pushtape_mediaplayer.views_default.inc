@@ -123,16 +123,8 @@ function pushtape_mediaplayer_views_default_views() {
   $handler = $view->new_display('panel_pane', 'All Tracks Jplayer', 'panel_pane_1');
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
-  $handler->display->display_options['style_plugin'] = 'jplayer';
-  $handler->display->display_options['style_options']['path_field'] = array(
-    'field_audio_1' => 'field_audio_1',
-  );
-  $handler->display->display_options['style_options']['autoplay'] = '0';
-  $handler->display->display_options['style_options']['volume'] = '80';
-  $handler->display->display_options['style_options']['muted'] = '0';
   $handler->display->display_options['defaults']['style_options'] = FALSE;
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
-  $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Audio */

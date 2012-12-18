@@ -1,6 +1,6 @@
 api = 2
 core = 7.x
-; these need to be updated. currently not using because we are using the appserver manifest instead
+
 projects[colorbox][version] = 2.0
 projects[colorbox][subdir] = contrib
 
