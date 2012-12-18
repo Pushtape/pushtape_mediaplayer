@@ -21,8 +21,6 @@ dependencies[] = views_content
 dependencies[] = soundmanager2
 dependencies[] = strongarm
 dependencies[] = views
-apps[server] = http://apps.pushtape.openlearninglabs.org/app/query/pushtape
-datestamp = 1347398896
 features[ctools][] = file_entity:file_default_displays:1
 features[ctools][] = page_manager:pages_default:1
 features[ctools][] = strongarm:strongarm:1
@@ -43,4 +41,5 @@ features[variable][] = jplayer_directory
 features[variable][] = sm2_path
 features[views_view][] = pushtape_player_track_views
 files[] = test/pushtape_mediaplayer.test
-project status url = http://apps.pushtape.openlearninglabs.org/content/pushtape-mediaplayer
+apps[server] = http://apps.pushtape.openlearninglabs.org/app/query/pushtape
+project status url = project status url = http://updates.drupal.org/release-history/pushtape_news/7.x
